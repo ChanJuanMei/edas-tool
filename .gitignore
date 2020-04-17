@@ -1,0 +1,12 @@
+node_modules
+.vscode
+web/.tmp
+.idea
+.idea/*
+.idea/workspace.xml
+.scannerwork
+.DS_Store
+*/.DS_Store
+logs
+out
+package-lock.lock

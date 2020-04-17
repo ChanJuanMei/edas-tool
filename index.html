@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>edas-tool</title>
+  </head>
+  <body>
+   
+   <table>
+    <tr>
+      <td>dataId:</td>
+      <td><input type="text" id='dataId'></td>
+      <td>group:</td>
+      <td><input type="text" id='group'></td>
+      <td>ip:</td>
+      <td><input type="text" id='srcIp'></td>
+      </tr>
+    </table>
+    <input type="button" value="查询" id ='query'  >
+    <input type="button" value="删除" id ='del'  >
+  <div id ='content'></div>
+
+  <script src='./edas.js' ></script> 
+  </body>
+</html>
